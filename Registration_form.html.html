@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            Registration Form
+        </title>
+    </head>
+
+    <body>
+        <div class="Form">
+        <h2 id="heading">Registration Form</h2>
+        <form >
+            <label class="elem" for="Name" ><b>Name</b></label>
+            <input class="in" type="text" placeholder="Enter your Full Name" name="Name" id="Name" required/>
+
+            <label class="elem" for="Ph. No."><b>Mobile Number</b></label>
+            <input  class="in" type="tel" placeholder="Enter your mobile number" maxlength="10" minlength="10" name="Ph. No." id="Ph. No." required/>
+            
+            <label class="elem"for="email"><b>Email</b></label>
+            <input  class="in" type="email" placeholder="Enter your personal email id" name="email" id="email" required/>
+            
+            <label class="elem" for="password"><b>Password</b></label>
+            <input  class="in"type="password" name="password" id="password" required/>
+            
+            <label class="elem" for="Branch" ><b>Branch</b></label>
+            <select  class="in" name="Branch" id="Branch" >
+                <option>Computer Engg.</option>
+                <option>IT</option>
+                <option>E&TC</option>
+                <option>A&R Engg.</option>
+                <option>Mech. Engg.</option>
+                <option>Civil Engg.</option>
+            </select>
+            
+
+            <label class="elem" for="Class"><b>Class</b></label>
+            <select  class="in" name="Class" id="Class">
+                <option>FE</option>
+                <option>SE</option>
+                <option>TE</option>
+                <option>BE</option>
+            </select>
+            <br>
+
+            <button  id="submit_btn">Submit</button>
+        </form>
+
+        <div id="Sign_in">
+            <h4>Already have an Account<span><a href="#"> Sign In!</a></span></h4>
+        </div>
+    </div>
+    </body>
+</html>
