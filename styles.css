@@ -1,0 +1,46 @@
+.Form{
+    margin-left:auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px ;
+    background-color: rgb(230, 255, 173);
+    width:500px;
+    border: 5px solid yellowgreen;
+    border-radius: 7px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    
+}
+
+#heading{text-align: center;}
+
+.elem{
+    margin-top: 8px;
+    display:block;
+}
+
+.in{
+    margin-top: 8px;
+    
+    height: 20px;
+    border-radius: 14px;
+    width:300px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid yellowgreen;
+    
+}
+
+#submit_btn{
+    margin-top:20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
+    width:300px;
+    padding:10px;
+    background-color:yellowgreen;
+    border-radius:30px;
+    border:black 2px;
+}
